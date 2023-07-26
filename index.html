@@ -30,6 +30,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
 </head>
 <!--BODY(lo que ve el usuario )-->
@@ -45,9 +47,9 @@
 
     <div class="index">
       <nav class="nav-principal contenedor">
-        <a href="#caracteristicas">Características</a>
-        <a href="#alimentación">Alimentación</a>
-        <a href="#relación">Relación humano-perro</a>
+        <a href="#p-car">Características</a>
+        <a href="#alim">Alimentación</a>
+        <a href="#relacion">Relación humano-perro</a>
         <a href="#razas">Razas</a>
       </nav>
 
@@ -57,13 +59,19 @@
 
 
   <section>
-    <div class="container">
+    <div class="bann">
       <div class="banner">
         <div class="banner-text">
           <h3> El mejor amigo que ladra y alegra tus días </h3>
           <h2>Perros</h2>
-          <button id="btn"> Leer más</button>
+          <a href="#about">
+            <button id="btn"> Leer más</button>
+          </a>
         </div>
+      </div>
+      <div>
+        <img class="perro-salchi" src="images/salchicha.jpg" alt="">
+        <img class="figura" src="images/figura.png" alt="">
       </div>
     </div>
 
@@ -96,123 +104,182 @@
 
 
   <main>
-    <h2>Hablemos sobre ellos</h2>
-    <section>
-      <h3 id="caracteristicas">Características</h3>
-      <p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-paw" width="60" height="60"
-          viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round"
-          stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path
-            d="M14.7 13.5c-1.1 -2 -1.441 -2.5 -2.7 -2.5c-1.259 0 -1.736 .755 -2.836 2.747c-.942 1.703 -2.846 1.845 -3.321 3.291c-.097 .265 -.145 .677 -.143 .962c0 1.176 .787 2 1.8 2c1.259 0 3 -1 4.5 -1s3.241 1 4.5 1c1.013 0 1.8 -.823 1.8 -2c0 -.285 -.049 -.697 -.146 -.962c-.475 -1.451 -2.512 -1.835 -3.454 -3.538z" />
-          <path
-            d="M20.188 8.082a1.039 1.039 0 0 0 -.406 -.082h-.015c-.735 .012 -1.56 .75 -1.993 1.866c-.519 1.335 -.28 2.7 .538 3.052c.129 .055 .267 .082 .406 .082c.739 0 1.575 -.742 2.011 -1.866c.516 -1.335 .273 -2.7 -.54 -3.052z" />
-          <path
-            d="M9.474 9c.055 0 .109 0 .163 -.011c.944 -.128 1.533 -1.346 1.32 -2.722c-.203 -1.297 -1.047 -2.267 -1.932 -2.267c-.055 0 -.109 0 -.163 .011c-.944 .128 -1.533 1.346 -1.32 2.722c.204 1.293 1.048 2.267 1.933 2.267z" />
-          <path
-            d="M16.456 6.733c.214 -1.376 -.375 -2.594 -1.32 -2.722a1.164 1.164 0 0 0 -.162 -.011c-.885 0 -1.728 .97 -1.93 2.267c-.214 1.376 .375 2.594 1.32 2.722c.054 .007 .108 .011 .162 .011c.885 0 1.73 -.974 1.93 -2.267z" />
-          <path
-            d="M5.69 12.918c.816 -.352 1.054 -1.719 .536 -3.052c-.436 -1.124 -1.271 -1.866 -2.009 -1.866c-.14 0 -.277 .027 -.407 .082c-.816 .352 -1.054 1.719 -.536 3.052c.436 1.124 1.271 1.866 2.009 1.866c.14 0 .277 -.027 .407 -.082z" />
-        </svg>
-      </p>
+    <div class="about-car">
+      <h2 id="about">Hablemos sobre ellos</h2>
+    </div>
+    <!-- seccion de Características -->
+    <section id="p-car">
+      <div class="div-car">
+        <h3 id="caracteristicas">Características </h3>
 
-      <ul class="p-caracteristicas">
-        <li> El perro se define como un mamífero cuadrúpedo que camina en cuatro extremidades, tiene rabo y un manto que
-          rodea todo el cuerpo.
-        </li>
-        <li>El perro pertenece a la especie de los cánidos. Su tamaño, forma y pelaje varían en función de la raza de
-          perro.
-        </li>
-        <li>Los perros son animales inteligentes y pueden ser entrenados para aprender una amplia variedad de comandos y
-          tareas. Son capaces de comprender instrucciones, responder a señales y adaptarse a diferentes situaciones.
-        </li>
-        <li>Los perros son conocidos por su lealtad hacia sus dueños. Son animales muy fieles y están dispuestos a hacer
-          cualquier cosa para proteger y complacer a sus dueños.
-        </li>
-        <li>Los perros tienen una capacidad notable para adaptarse a diferentes entornos y situaciones. Pueden vivir en
-          espacios pequeños o grandes, en áreas urbanas o rurales, y se adaptan a diferentes estilos de vida.
-        </li>
-        <li>Los perros tienen un sentido del olfato excepcionalmente desarrollado. Pueden detectar olores sutiles y se
-          utilizan en diversas tareas, como búsqueda y rescate, detección de drogas o explosivos, y rastreo.
-        </li>
-      </ul>
+
+        <ul class=" p-caracteristicas">
+          <div class="row">
+
+            <li class="col 1"> Mamífero cuadrúpedo que camina en cuatro extremidades, tiene rabo y un manto que
+              rodea todo el cuerpo.
+            </li>
+
+            <li class="col 2">Pertenece a la especie de los cánidos. Su tamaño, forma y pelaje varían en función de la
+              raza de
+              perro.
+            </li>
+            <li class="col 3">Son animales inteligentes y pueden ser entrenados para aprender una amplia variedad de
+              comandos y
+              tareas. Son capaces de comprender instrucciones, responder a señales y adaptarse a diferentes situaciones.
+            </li>
+          </div>
+          <br>
+          <div class="row">
+            <li class="col 4"> Son animales muy fieles y están dispuestos a hacer cualquier cosa para proteger y
+              complacer
+              a sus dueños.
+            </li>
+            <li class="col 5">Cuentan con una capacidad notable para adaptarse a diferentes entornos y situaciones.
+              Pueden
+              vivir en
+              espacios pequeños o grandes, en áreas urbanas o rurales, y se adaptan a diferentes estilos de vida.
+            </li>
+            <li class="col 6">Tienen un sentido del olfato excepcionalmente desarrollado. Pueden detectar olores sutiles
+              y
+              se
+              utilizan en diversas tareas, como búsqueda y rescate, detección de drogas o explosivos, y rastreo.
+            </li>
+          </div>
+        </ul>
+
+        <img class="dog" src="/images/dog.png" alt="">
+
+      </div>
+
+
+
+    </section>
+    <!-- seccion de alimentación -->
+    <section id="alim">
+      <div class="container-fluid p-alim">
+
+        <div class="row row-ali ">
+          <div class="col-6 columna-1">
+            <div class="eating-img">
+              <img src="images/eating.png" alt="">
+            </div>
+
+          </div>
+          <div class="col-6 column-2">
+            <h3 id="alimentación">Alimentación</h3>
+
+            <p>
+              Los perros son animales herbívoros, es decir que son capaces de comer desde plantas, hierbas hasta frutas
+              y
+              vegetales. Por un lado, los carbohidratos que provienen de las plantas les van a ayudar a tener una buena
+              fuente
+              de energía y sobre todo a mejorar el funcionamiento de su sistema digestivo.
+
+              Si miramos sus dientes, los molares o muelas son bastante eficientes, los cuales se utilizaban en un
+              pasado
+              para
+              triturar la comida vegetal. Tienen 32 dientes diseñados para masticar diferentes tipos de alimentos. Entre
+              los
+              cuatro y nueve meses de vida suelen cambiar su dentadura por los dientes definitivos. Además, sus
+              glándulas
+              salivales segregan la cantidad adecuada de saliva para facilitar la
+              digestión en la boca.
+
+              Debido a la interacción con los humanos, también suelen comer proteínas animales, como carne o pescado
+              cocidos,
+              y alimentos equilibrados que contienen todos los nutrientes necesarios para mantener su óptima salud.
+              Dependiendo de su edad y estilo de vida, necesitan consumir entre 1300 y 3500 calorías por día.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- seccion de relación -->
+    <section id="relacion">
+      <div class="div-rel">
+
+        <h2>Relación humano-perro</h2>
+        <h3>La conexión entre los humanos y los perros ha sido revolucionaria para muchas
+          personas. Ya que las mascotas han
+          despertado la compasión hacia los animales en nuevas generaciones que están impulsando hacia un futuro más
+          equitativo para otros seres vivos.
+          El lazo que se forma con los perros está lleno de virtudes y emociones favorables.</h3>
+
+        <!-- Carrusel -->
+        <div id="relacion-carrusel" class="carousel carousel-dark slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <img class="testimonio-imagen " src="images/rel-1.jpg" alt="relacion1">
+                <p class="testimonio-texto">Los perros son conocidos como "el mejor amigo del hombre" debido a su
+                  capacidad para brindar compañía constante. Son leales, cariñosos y están siempre dispuestos a estar
+                  cerca de sus dueños, brindando consuelo y apoyo emocional.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img class="testimonio-imagen" src="images/rel-2.png" alt="Foto de Nora">
+                <p class="testimonio-texto">Está comprobado que tener un perro puede tener numerosos beneficios para la
+                  salud humana. Los perros ayudan a reducir el estrés, disminuir la presión arterial, mejorar el estado
+                  de ánimo y fomentar un estilo de vida activo a través del ejercicio diario.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img class="testimonio-imagen" src="images/rel-3.png" alt="Foto de Leonardo">
+                <p class="testimonio-texto">La relación entre un humano y un perro puede ser profundamente emocional. Se
+                  establece un vínculo afectivo basado en la confianza, el amor y el cuidado mutuo. Los perros son
+                  capaces de comprender y responder a las emociones humanas, brindando consuelo y alegría en momentos
+                  difíciles.
+                </p>
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img class="testimonio-imagen" src="images/rel-4.jpg" alt="Foto de Leonardo">
+                <p class="testimonio-texto">Los perros y los humanos pueden disfrutar de actividades compartidas, como
+                  paseos, juegos, entrenamiento y exploración al aire libre. Estas actividades fortalecen el vínculo y
+                  promueven la interacción y el tiempo de calidad juntos.
+                </p>
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img class="testimonio-imagen" src="images/rel-5.jpg" alt="Foto de Leonardo">
+                <p class="testimonio-texto"> Tener un perro implica una responsabilidad significativa. Los humanos deben
+                  proporcionar cuidado adecuado, como alimentación, ejercicio, atención veterinaria y socialización, así
+                  como dedicar tiempo y recursos para satisfacer las necesidades del perro.
+                </p>
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <img class="testimonio-imagen" src="images/rel-6.jpg" alt="Foto de Leonardo">
+                <p class="testimonio-texto"> Los perros pueden actuar como guardianes y proporcionar una sensación de
+                  seguridad a sus dueños. Su agudeza sensorial y su instinto protector hacen que muchas personas se
+                  sientan más seguras en presencia de un perro.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#relacion-carrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#relacion-carrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h3 id="alimentación">Alimentación</h3>
-      <p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bone" width="60" height="60"
-          viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round"
-          stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path
-            d="M15 3a3 3 0 0 1 3 3a3 3 0 1 1 -2.12 5.122l-4.758 4.758a3 3 0 1 1 -5.117 2.297l0 -.177l-.176 0a3 3 0 1 1 2.298 -5.115l4.758 -4.758a3 3 0 0 1 2.12 -5.122z" />
-        </svg>
-      </p>
-      <p>
-        Los perros son animales herbívoros, es decir que son capaces de comer desde plantas, hierbas hasta frutas y
-        vegetales. Por un lado, los carbohidratos que provienen de las plantas les van a ayudar a tener una buena fuente
-        de energía y sobre todo a mejorar el funcionamiento de su sistema digestivo.
 
-        Si miramos sus dientes, los molares o muelas son bastante eficientes, los cuales se utilizaban en un pasado para
-        triturar la comida vegetal. Tienen 32 dientes diseñados para masticar diferentes tipos de alimentos. Entre los
-        cuatro y nueve meses de vida suelen cambiar su dentadura por los dientes definitivos. Además, sus glándulas
-        salivales segregan la cantidad adecuada de saliva para facilitar la
-        digestión en la boca.
-
-        Debido a la interacción con los humanos, también suelen comer proteínas animales, como carne o pescado cocidos,
-        y alimentos equilibrados que contienen todos los nutrientes necesarios para mantener su óptima salud.
-        Dependiendo de su edad y estilo de vida, necesitan consumir entre 1300 y 3500 calorías por día.
-      </p>
-    </section>
-
-    <section>
-      <h3 id="relación">Relación humano-perro</h3>
-      <p>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-heart-handshake" width="60"
-          height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round"
-          stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
-          <path
-            d="M12 6l-3.293 3.293a1 1 0 0 0 0 1.414l.543 .543c.69 .69 1.81 .69 2.5 0l1 -1a3.182 3.182 0 0 1 4.5 0l2.25 2.25" />
-          <path d="M12.5 15.5l2 2" />
-          <path d="M15 13l2 2" />
-        </svg>
-      </p>
-      <p>
-        La conexión entre los humanos y los perros ha sido revolucionaria para muchas personas. Ya que las mascotas han
-        despertado la compasión hacia los animales en nuevas generaciones que están impulsando hacia un futuro más
-        equitativo para otros seres vivos.
-        El lazo que se forma con los perros está lleno de virtudes y emociones favorables.
-      <ul>
-        <li>Los perros son conocidos como "el mejor amigo del hombre" debido a su capacidad para brindar compañía
-          constante. Son leales, cariñosos y están siempre dispuestos a estar cerca de sus dueños, brindando consuelo y
-          apoyo emocional.
-        </li>
-        <li>Está comprobado que tener un perro puede tener numerosos beneficios para la salud humana. Los perros ayudan
-          a reducir el estrés, disminuir la presión arterial, mejorar el estado de ánimo y fomentar un estilo de vida
-          activo a través del ejercicio diario.
-        </li>
-        <li>La relación entre un humano y un perro puede ser profundamente emocional. Se establece un vínculo afectivo
-          basado en la confianza, el amor y el cuidado mutuo. Los perros son capaces de comprender y responder a las
-          emociones humanas, brindando consuelo y alegría en momentos difíciles.
-        </li>
-        <li>Los perros y los humanos pueden disfrutar de actividades compartidas, como paseos, juegos, entrenamiento y
-          exploración al aire libre. Estas actividades fortalecen el vínculo y promueven la interacción y el tiempo de
-          calidad juntos.
-        </li>
-        <li>Tener un perro implica una responsabilidad significativa. Los humanos deben proporcionar cuidado adecuado,
-          como alimentación, ejercicio, atención veterinaria y socialización, así como dedicar tiempo y recursos para
-          satisfacer las necesidades del perro.
-        </li>
-        <li>Los perros pueden actuar como guardianes y proporcionar una sensación de seguridad a sus dueños. Su agudeza
-          sensorial y su instinto protector hacen que muchas personas se sientan más seguras en presencia de un perro.
-        </li>
-      </ul>
-      </p>
-    </section>
 
     <section>
       <h3 id="razas">Razas</h3>
@@ -299,6 +366,9 @@
     </section>
   </main>
 
+
+
+
   <footer>La vida de un perro importa. No los abandones, respétalos y cuídalos. </footer>
 
 
@@ -306,14 +376,10 @@
 
 
 
-  <!--IMAGENES A TRAVES DE GOOGLE-->
-  <img src="https://www.pngall.com/wp-content/uploads/13/Dachshund-Cute-PNG-Picture.png"
-    alt="Imagen de perro salchicha">
 
-  <!--IMAGENES A TRAVES DE LA COMPUTADORA-->
-  <img src="images/dog.png" width="50%" alt="imagen de un perro">
-
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 
 </body>
 
