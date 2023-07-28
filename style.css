@@ -110,6 +110,10 @@ header {
     color: var(--blanco);
 }
 
+  
+  
+  
+  
 
 
 /**************************************ENCABEZADO*******************************************************************************/
@@ -355,7 +359,7 @@ header {
 /**************************************RELACIÓN HUMANO-PERRO*******************************************************************************/
 #relacion {
 
-    background-color: var(--gris);  
+    background-color: var(--gris);
     font-family: 'Berkshire Swash', cursive;
     width: 100%;
     height: 780px;
@@ -377,8 +381,8 @@ header {
     align-items: center;
     color: var(--verdeO);
     margin-bottom: 30px;
-    border-bottom: 2px solid var(--verdeO); 
-   
+    border-bottom: 9px solid var(--amarillo);
+
 }
 
 .div-rel h3 {
@@ -411,19 +415,214 @@ header {
     height: 375px;
     width: auto;
     margin: 10px 10px 20px 10px;
+    border-radius: 40px;
 }
 
 .testimonio-texto {
-    max-width: 70%;
+    max-width: 55%;
     font-size: 20px;
     text-align: center;
     font-family: Helvetica, sans-serif;
     font-size: 13px;
-    letter-spacing: 1px;
     word-spacing: 2px;
-    color: var(--negro);
+    color: var(--verdeO);
     line-height: 1.2rem;
+    background-color: var(--amarillo);
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+
 }
 
 /**************************************RAZAS*******************************************************************************/
+
+
+#razas {
+
+    background-color: var(--rosa);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+
+}
+
+#razas h2 {
+    font-size: 55px;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    color: var(--blanco);
+    margin-bottom: 30px;
+    font-family: 'Berkshire Swash', cursive;
+
+}
+
+#razas h3 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: -45px;
+    margin-bottom: 20px;
+    color: var(--verdeO);
+    font-family: 'Lilita One', cursive;
+    text-align: center;
+
+}
+/**************************************RAZAS G*******************************************************************************/
+.razas-grandes {
+    background-color: #cbd6c8;
+    border-radius: 40px;
+    padding: 5px;
+    margin-bottom: 75px;
+
+
+}
+
+.razasG-contenedor img {
+    height: 250px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 40px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.razasG-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.proyecto {
+    position: relative;
+}
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+/**************************************RAZAS M*******************************************************************************/
+.razas-medianos {
+    background-color: #cbd6c8;
+    border-radius: 40px;
+    padding: 5px;
+    margin-bottom: 75px;
+
+}
+
+.razasM-contenedor img {
+    height: 250px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 40px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.razasM-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+/**************************************RAZAS C*******************************************************************************/
+.razas-ch {
+    background-color: #cbd6c8;
+    border-radius: 40px;
+    padding: 5px;
+    margin-bottom: 75px;
+
+}
+
+.razasCh-contenedor img {
+    height: 250px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 40px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.razasCh-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+/**************************************RAZAS P*******************************************************************************/
+.razas-pop {
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 5px;
+    margin-bottom: 75px;
+
+}
+
+.razasP-contenedor img {
+    height: 250px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 90px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.razasP-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
 /**************************************FOOTER*******************************************************************************/
+
+footer {
+    min-height: 80px;
+    background-color: var(--verdeO);
+  }
+  
+  
+  .footer-texto {
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Yeseva One', cursive;
+    color: var(--gris);
+    letter-spacing: 1px;
+    word-spacing: 2px;
+
+
+  }
+   
+  .derechos-de-autor {
+    font-size: 11px;
+    color: var(--gris);
+    padding: 10px;
+    font-family: 'Yeseva One', cursive;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+
+
+
+  }
